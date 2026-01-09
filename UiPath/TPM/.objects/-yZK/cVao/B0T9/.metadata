@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome 智慧云平台",
+  "Type": "Screen",
+  "Id": "B0T9I2x-f0yqpI0Da9j6rg",
+  "Reference": "0tNGlzjZrESFkuhjo9gEDQ/B0T9I2x-f0yqpI0Da9j6rg",
+  "ParentRef": "0tNGlzjZrESFkuhjo9gEDQ/cVaorxkSiUiAvt5COoiPIw",
+  "Created": "2026-01-07T08:22:44.8307423Z",
+  "Updated": "2026-01-07T08:22:44.8307423Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

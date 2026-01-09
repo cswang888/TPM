@@ -1,0 +1,14 @@
+﻿{
+  "Name": "首页",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oxptgFPlSkyuib8PpGSCEw",
+  "Reference": "0tNGlzjZrESFkuhjo9gEDQ/oxptgFPlSkyuib8PpGSCEw",
+  "ParentRef": "0tNGlzjZrESFkuhjo9gEDQ/B0T9I2x-f0yqpI0Da9j6rg",
+  "Created": "2026-01-08T06:52:54.7465549Z",
+  "Updated": "2026-01-08T06:52:54.7465549Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

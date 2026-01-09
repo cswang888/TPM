@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome 智慧云平台",
+  "Type": "App",
+  "Id": "-yZK84M2QkCR3lXIDeqmww",
+  "Reference": "0tNGlzjZrESFkuhjo9gEDQ/-yZK84M2QkCR3lXIDeqmww",
+  "Created": "2026-01-07T08:22:44.5308302Z",
+  "Updated": "2026-01-07T08:22:44.5308302Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

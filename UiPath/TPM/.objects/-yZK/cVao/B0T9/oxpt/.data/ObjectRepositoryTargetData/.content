@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iF-_eGq3y02tggoOlEFDLg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="115.239.225.96" CVScreenId="242af5dd-a52f-491a-bd2b-11222f331180" CvElementArea="1186, 890, 76, 50" CvTextArea="1205, 903, 39, 21" CvTextArgument="Mo" CvType="Button" DesignTimeRectangle="1188, 891, 74, 46" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='page-link' parentid='totalDataSize' tag='A' /&gt;" Guid="1e0c25a6-d457-4d5b-b375-6fecd6629941" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5cbc7d88f53b2779d73926c0f825f617.png" xmlns="">0dRk5yNUDfkilnxUhjtduAw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

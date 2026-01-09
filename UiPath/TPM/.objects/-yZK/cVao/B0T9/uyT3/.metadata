@@ -1,0 +1,14 @@
+﻿{
+  "Name": "电量数据",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "uyT3cAXcFEaOwCn6wiSlJQ",
+  "Reference": "0tNGlzjZrESFkuhjo9gEDQ/uyT3cAXcFEaOwCn6wiSlJQ",
+  "ParentRef": "0tNGlzjZrESFkuhjo9gEDQ/B0T9I2x-f0yqpI0Da9j6rg",
+  "Created": "2026-01-08T06:13:58.4364528Z",
+  "Updated": "2026-01-08T06:13:58.4364528Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

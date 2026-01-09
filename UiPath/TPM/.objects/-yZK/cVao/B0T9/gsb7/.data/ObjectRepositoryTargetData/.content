@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7Z_EYigEoUaFHjsv08CZYg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="115.239.225.96" CVScreenId="d0b98e30-53fb-4f77-92c5-6071ee18606e" CvElementArea="1027, 889, 155, 55" CvType="InputBox" DesignTimeRectangle="1030, 969, 150, 51" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;main&amp;gt;app-pages&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-bar-content-body&amp;gt;section&amp;gt;app-historicaldata&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;select' tag='SELECT' /&gt;" Guid="f87d2156-cf40-440b-8f79-f5ccf4aa12ed" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="357, 969, 100, 44" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='btn btn-default btn-sm pull-left' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='                     导出' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' innertext='                     导出' check:innerText='导出' /&gt;" Guid="ef962c17-240e-4d38-8b65-f8b951cde756" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9a4dd5623ef96a4677c949afd941b035.png" xmlns="">0lhqQqmm2IE-ceFvvKkAVLg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

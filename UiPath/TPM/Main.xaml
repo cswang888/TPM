@@ -1,0 +1,336 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Excel.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Files.Enums</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Files.Models</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Files.Models</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Excel</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Files.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Activities.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Database</x:String>
+      <x:String>UiPath.Database.Activities</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Database</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="568,2522.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd2:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+      <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:String x:Key="SourceIdRef">NApplicationCard_1</x:String>
+            <x:String x:Key="SourcePropertyName">OutUiElement</x:String>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="dbPassword" />
+      <Variable x:TypeArguments="ui:DatabaseConnection" Name="cTPM" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome 智慧云平台(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="522.6666666666666,854.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Background" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="7eb2caf0-c9f6-4620-b55f-1e86d1c282e1" Version="V2" WebDriverMode="[UiPath.UIAutomationNext.Enums.NWebDriverMode.Headless]" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,650.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="sPassword" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="7eb2caf0-c9f6-4620-b55f-1e86d1c282e1" Text="datasrc" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="115.239.225.96" CVScreenId="3a9efd4e-aa4c-4972-ae37-d3c8255fdbc1" ContentHash="yf1SWMKu-k-tMwMsHnRvdA" CvElementArea="632, 447, 346, 60" CvType="InputBox" DesignTimeRectangle="636, 448, 341, 57" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="7ebd992b-9d17-47bd-9dda-81e2a20a9363" InformativeScreenshot="baa16f83d70921720983d8a7615d22cf.png" Reference="0tNGlzjZrESFkuhjo9gEDQ/18TLbYaRZE2c5DdxV3yjVw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Complete">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="3251e592-7ea8-42e6-b7a6-2a6f02154ffe" CvElementArea="569, 446, 68, 61" CvType="Button" DesignTimeRectangle="588, 458, 33, 37" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='pic4' tag='IMG' /&gt;" Guid="4b215d86-9d0b-41e5-aa40-ef3c2d8e96eb" SearchSteps="Selector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <ui:GetPassword DisplayName="Private: Get Password" sap:VirtualizedContainerService.HintSize="416,61.333333333333336" sap2010:WorkflowViewState.IdRef="GetPassword_1" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAggib1Ev09UiAKCiscOxKcQAAAAACAAAAAAAQZgAAAAEAACAAAAAJm6xK2bWSHPiVviHx13tKKvM653TJZ5xYjnvb7MQi9gAAAAAOgAAAAAIAACAAAABalu1vVihUIc+Bya/xl16/eDR0ZLLN1PYjOr1DGRZ97xAAAAAXUVoQXoCQ11/+TgbCNIL8QAAAAOEp5nQC5PB3XP9dyyE6dHrpFSPPQURdqgxGcldjU6mwRYOUGPAKCbo2P9xBS54aGvlUoMXbvu0QpyxoiTqlwAY=" Result="[sPassword]" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,242.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="7eb2caf0-c9f6-4620-b55f-1e86d1c282e1" SecureText="[New System.Net.NetworkCredential(&quot;&quot;, sPassword).SecurePassword]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="115.239.225.96" CVScreenId="d4f8ef14-0ffb-47f7-8477-cb8bb4a5b5c9" ContentHash="cHQfDIxo_Eeh6YAHeb-nsw" CvElementArea="630, 531, 347, 59" CvType="InputBox" DesignTimeRectangle="633, 532, 344, 57" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" Guid="0916804c-4551-4a6b-bb88-e984fe643438" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAVwAAAA9CAYAAADhydFnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAVhSURBVHhe7dztattIFIDh3L7vQHcQX0N8DTalPwpZtqVe4qULbVzIt+1kykgaWTqaGY1k6SRm3wcOrOIPSV76eqy4vfj98moYhmGY6edC/oBhGIaZZgguwzDMFPN8aP3s4vOXb8bO9frGfLr+yjAMw4ww1+uNWf/3sxnc+h1ub2/z2W63DMMwzMCxHf3169b8/c/GfP9xjG4juHd3d+bh4YFhGIY5ce7v7812+ztf6W6f9u3gvry8mMPhYF5fXxmGYZiBYzu63+/N4+Nj3lbvCtfeAQBwure3N7Pb7QguAGiwTSW4AKCA4AKAEoILAEoILgAoIbgAoITgAoASggsASgguACghuACghOACgBKCCwBKCC4AKCG4AKCE4AKAko8X3M3CZLOZya428hYAOGtqwd1cZWkR7Rvc1dzMZjMzX8kbhPJ+s9ncLOVtUUszT3n+wTZmkc3M7LLfUQE4P0rBLaNig+fCUgWw52QLU0/x8jIhomXE3XMkx9xaLUyWH3tmFj0elmyzNIvLLD+u0aIuzjc0o+0PQBKl4BaKOHas5nqtcBNWhy4+ZajtSrt/PN0bRkfYfYa+sfimPM/qdfROwrnlx5RwPwCjUg2utbzMzGK1qcVPBiM+xaqs+Jgvb2vepx3b8ocD41nuMxZ3n4642dege6UZ2Xfo+ctz9z138br3PX8Ap1IPbqc+K9xQbKrbApGqgt0zOrH9hXQ8xr3ptMNoj9E9LhTc8s1DXGbJBfcbeQyASZ11cPOP1q1wHK8XZ1lkBZ3Nzbzntdnqo3xrnwlqAZQrTHmZw0U4u1qajb2G3AptKfZaBYMbijeAqakEt/nx34YmfkkgPi4ix+u3eaDyCA64XJD6LYf6L/6S7l/XPC4Z3OJ2e17udfHFt1XO8g3AF1XfPtwNkUgDmJRKcJ1gBIaoXaM8BndCVaiW3b+ok9y15PIxvtch9gtFuQIufth8Tsm/+u/zBgNgbGcb3HqEZHDdqrA5nv32iE9jNRn8uO4nV6L11+F4rM3nyx9TxVRed22utuvjziUUXG+8Aah45+D2u7RQ/xhcD4o3uPXY5IEs99v675TgyuuecjumfV/5htDevwxscaz2Wq7drn8tTH4jo9gOB1kOlxYAPR8juF3hal13jAQlW5jlyMF1gWzcr+cqtyDeYILnXdzPG8P8tbBfrRNf+4p8DcyrPHfvPgBM4kyD2yRXtHIFWczQ4JbH2Pp4nvCXLpxyP/V9+Y+x+cbhP9uSDKzc7kJwAXUfI7iJE4qDN7gjrXDl9deGrse7X2x1xXMIGVi53aXr2AGM7mMEt2uVmLLCrcI8N4uxgpuwCkz6txw6hH7BFSUDW21HLre4sfvqOncAo3u/4K7mZr4aGlzPyliucOXtvYMbupQgpZ1DLMyx4AYfFwyuuF+A97o0gEm9S3DnVUQ84YxMaKUpLyHI7XZku4LrjssTOp8TV8KnBFe+Ru1z8Sv+XwQulQCYxDsEtx6QtNVhe4XbJAMrtxuRrfMGt2dsS+7cQscYDOeJwR22wh3wN/IAnEwxuL4/5P2CG4qJDKzcTg5utWr03DdB9YbiOZ/6d2f7j+d45Gsitxt8nyRY3QLa9IKbB0H+IQ8E1/dxObACtGRg3Xb+fVz3eLePMrKt53X7lMfSl3ueyPH2EVzhAjg7esEFgP85ggsASgguACghuACghOACgBKCCwBKCC4AKCG4AKCE4AKAEoILAEoILgAoIbgAoITgAoASggsASgguACh5eno21+uN2T7tCS4ATGW325uvN/+a7z9+Hle4n798M3b+Wt9U4WUYhmFOG7uyrcc2D259g2EYhhlpng+tn/0BDaFxuo/YLkUAAAAASUVORK5CYII=" InformativeScreenshot="25ae677373ee94f73f93129899474b39.png" Reference="0tNGlzjZrESFkuhjo9gEDQ/BXtO8v1-T0aCoj29bMQ93g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="c96870a5-cfe3-4134-b7c8-c097fd53e67a" CvElementArea="581, 540, 42, 41" CvType="Icon" DesignTimeRectangle="588, 546, 30, 30" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='pic4' src='/assets/img/password.png' tag='IMG' /&gt;" Guid="7f957dc6-a445-445f-8163-6005039229bd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKQSURBVFhH7ZeJbptAEIbz/k/XuE3ixDG+wUfAGB/4AE/1jbsILWATyTRt1ZF+acUc+zO7O7P78O21K38CHuwPX4W/k0ir05P3kSvBai37w1HO57MYYXxKEllGa7XB1va/htpE3gZjmQeh7PYHnTDNkbDJYLNYhtIZTgpxqlCLSHfkih9GcjiedMI0TWUb7yWI1rJYrhRkabOLJUlTtTmeTuKvIvW145XhKpHHN0favZEEq0j/lD+OD0edeOjN9Y/bvaGCjPXdWZa1NL1kB4Kv/bHGsuPXJvK905Opv9S/gwQTeB+B/HjvF2wNWh1HxrMPzZgu1SlR4td8QCURkw2Wg4D741Hcha8T2bZlmMw/1AdJklSz17qSlUoiT92+BjNrPvOX8tQdFOyqgC0+lz11lqkfyPMV/0oiZGO12V72xf4gfXd6c53zwBYffIkRbbbS7o8KdgaVRNh88eESJFxvPnUUDfDB93KKEukMqmNkRHByxp70JlMF+4G1RdbbnbhzP9PVBUsbbXcaA/EWQaZzJp50x16RSBhtZBPHejKA2WgIhKikRlcXZJQTZ4SYmT7ea90pEDHCUlA1m0S+NVQSgSlVdBYsGwGxmeMmEcoyTevZGTQCYjPHTSKLIJSX3jAzuAZK98CbKRjb+jIQmznuQsRUXfoKpRwwrtNT7kqEMs/xNt0Y4XTQl27dQ+5KhGbIcTd1BmHMN3S2fR53JZJlJFcjGNdpincl8virqVG+aYqAMd/Q2fZ53JWIAfcM7hvmzmHry9AIEU4KmxQwtvVl+E/Exr9N5MUZ6mUHMLb1ZahNxLxFcGgC+kaq0/S4tGAI6yZAbOaoJMLrrfiIbFa4IBWIwBIyv0sgQUUuEPlq/ARFToxXu7hOmwAAAABJRU5ErkJggg==" SearchSteps="Selector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="382, 171, 1560, 986" BrowserType="Chrome" ContentHash="4ShUHTDe5UyQBM4b26lo_w" IconBase64="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" InformativeScreenshot="29e2d59b38422e6c603909306dfc0718.png" Reference="0tNGlzjZrESFkuhjo9gEDQ/JwZsnweC5Eyjwh-CJpSWeA" Selector="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" Url="http://115.239.225.96:8199/#/login" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome 智慧云平台" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="522.6666666666666,1645.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OutUiElement="[outputElement]" ScopeGuid="3f3b3bab-0bbf-40e5-8dd2-d581fbc3cefb" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520.6666666666666,1450.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '电量数据'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486.6666666666667,199.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3f3b3bab-0bbf-40e5-8dd2-d581fbc3cefb" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="115.239.225.96" CVScreenId="f9c1da11-f29a-4a04-b37f-5e57d797acdc" ContentHash="2WfFwwYtR02FsqWJRDpHNA" CvElementArea="332, 316, 123, 62" CvTextArea="356, 339, 75, 21" CvTextArgument="BRSE" CvType="Button" DesignTimeRectangle="335, -142, 117, 55" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='content-body' tag='A' /&gt;" Guid="37424c0d-450d-452c-b29c-2f70a0b0c140" InformativeScreenshot="64c7805004e6d07d20e41833b12a59bc.png" Reference="0tNGlzjZrESFkuhjo9gEDQ/uyT3cAXcFEaOwCn6wiSlJQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="93e55a4d-016e-4994-9954-d6fc89aafcff" CvTextArea="68, 590, 78, 19" CvTextArgument="F5teRE" CvType="Text" DesignTimeRectangle="73, 203, 72, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='历史数据' parentid='page-wrapper' parentname='liLink' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='历史数据' /&gt;" Guid="a5acbf62-8ff3-4d81-bcc2-28a1e964f54f" ImageBase64="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" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NSelectItem DisplayName="Select Item '50'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486.6666666666667,205.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="50" ScopeIdentifier="3f3b3bab-0bbf-40e5-8dd2-d581fbc3cefb" Version="V5">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="3">
+                  <x:String>10</x:String>
+                  <x:String>20</x:String>
+                  <x:String>50</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="115.239.225.96" CVScreenId="12ea9193-e80b-4ab7-88bc-13ec83262ae0" ContentHash="IOeihYA9TkOd6JC0Ibm5mA" CvElementArea="1028, 967, 155, 55" CvType="InputBox" DesignTimeRectangle="1030, 969, 150, 51" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;main&amp;gt;app-pages&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-bar-content-body&amp;gt;section&amp;gt;app-historicaldata&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;select' tag='SELECT' /&gt;" Guid="8f1b1c76-8fe4-43fd-9327-4146d90d6aa0" InformativeScreenshot="9c73f91e32be596efe7fe740ed7a3a51.png" Reference="0tNGlzjZrESFkuhjo9gEDQ/5-O3b-kPV0-HAHz_acTkLw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="12ea9193-e80b-4ab7-88bc-13ec83262ae0" CvElementArea="353, 966, 107, 50" CvTextArea="377, 980, 57, 22" CvTextArgument="-9H" CvType="Button" DesignTimeRectangle="357, 969, 100, 44" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='btn btn-default btn-sm pull-left' aaname='                     导出' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='导出' /&gt;" Guid="7a8d33af-adc0-4d32-8269-ce15f1381abb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGgAAAAwCAYAAAD9wT87AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJWSURBVHhe7dy/axNhHMfx/nEPSJdIcNGhJoOjtAS6lRIcunTpYiCYsQiaIQTKQQW7CBIo1bZDC+GKXClEpDiJ80eeu1xz3ve5y10k51f7GV5Dc7/g++5zOW7IyvcfP0F6raQ/IF0YSLm7QP7NV3wefyEFbAsRyG4Ivt2SArYFAynGQMoxkHIMpBwDKcdAyjGQcgykHAMpx0DKMZByigIF+HA4xNth5OA4cOxz/ygK5GHLGJhYs4eR2Kdao24DxjTQOZXbqvJvB/Las/0L2vLkeaIQbQycnzsChdd1fL4E/0EgOVi36PwMtDAGcvm7gSYTXI59nIf6aCUDPd3DUbztaiKPtXiLW7KPe3jkGKJQ38VR+lhrwRUUDj6xQhkox0l/E7V0kKTVZ3j1SR4XKhVoZrBtYLa9u78ZaI7MSHlxrIUGJb+LohCO6+cqe93FqAhkiUjz4kyFq0EMb47E6slzb1eQfxU/GMQC+JNEpDjOdZDaz8fltTzfsmQGqlDlgc7fbMj/aGNQW3+NkY30ro+Di1sEF3206nI/82AD+2N53nzytpbettY9E9uyA52h0yy+Ev9E5YHy7ve19ZcYHPs4ed/Dc1ecUAOd/fKP11I8eAb6TV4g6SFa3V60kuqb6HTtLdA1sHm4ggorF+gJXgw97NhhNHcxGO7gsRjYdFiOx+QZBirMP2y7H6mLWs34DorfKriGdtrDGgNpEq+qhMx3e6l3gGUwkFZcQTTFQMoxkHIMpBwDKcdAyjGQcgykHAMpx0DKMZByDKScMxB/CkYP50/BkE6/AHUiA4Wsl7pSAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486.6666666666667,362" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '首页'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3f3b3bab-0bbf-40e5-8dd2-d581fbc3cefb" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="115.239.225.96" CVScreenId="242af5dd-a52f-491a-bd2b-11222f331180" ContentHash="iF-_eGq3y02tggoOlEFDLg" CvElementArea="1186, 890, 76, 50" CvTextArea="1205, 903, 39, 21" CvTextArgument="Mo" CvType="Button" DesignTimeRectangle="1188, 891, 74, 46" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='page-link' parentid='totalDataSize' tag='A' /&gt;" Guid="1e0c25a6-d457-4d5b-b375-6fecd6629941" InformativeScreenshot="5cbc7d88f53b2779d73926c0f825f617.png" Reference="0tNGlzjZrESFkuhjo9gEDQ/oxptgFPlSkyuib8PpGSCEw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </ui:CommentOut.Body>
+            </ui:CommentOut>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DelayBetweenPages="5" DisplayName="Extract Table Data '序号 表号 表名 时间 用电量(kwh) 1 …'" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='序号' ReferenceIdx='0' Name='序号' IsDeleted='true'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='表号' ReferenceIdx='1' Name='表号'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='表号 Url' ReferenceIdx='2' Name='表号 Url' IsDeleted='true'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='表名' ReferenceIdx='3' Name='表名' IsDeleted='true'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='时间' ReferenceIdx='4' Name='时间'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='用电量(kwh)' ReferenceIdx='5' Name='用电量'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='NumberColumnFormat' DecimalSeparator='.' ThousandsSeparator=',' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='序号' attr='fulltext' /&gt;&lt;column name='表号' attr='fulltext' name2='表号 Url' attr2='href' /&gt;&lt;column name='表名' attr='fulltext' /&gt;&lt;column name='时间' attr='fulltext' /&gt;&lt;column name='用电量(kwh)' attr='fulltext' /&gt;&lt;/extract-table&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486.6666666666667,147.33333333333334" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="3f3b3bab-0bbf-40e5-8dd2-d581fbc3cefb" Version="V5">
+              <uix:NExtractData.NextLink>
+                <uix:TargetAnchorable BrowserURL="115.239.225.96" CVScreenId="05a01bfd-1e8a-4b10-953d-3019a84b57a0" CvElementArea="1630, 890, 92, 50" CvType="Button" DesignTimeRectangle="1630, 891, 92, 46" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='下一页' class='page-link' parentid='totalDataSize' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='下一页' class='page-link' parentid='totalDataSize' tag='A' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='下一页' /&gt;" Guid="f6c99605-cec9-47ce-86c4-10a2d3e70371" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="05a01bfd-1e8a-4b10-953d-3019a84b57a0" CvElementArea="1720, 889, 77, 50" CvTextArea="1737, 903, 39, 21" CvTextArgument="¿-1" CvType="Button" DesignTimeRectangle="1721, 891, 74, 46" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='末页' class='page-link' parentid='totalDataSize' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='末页' class='page-link' parentid='totalDataSize' tag='A' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='末页' /&gt;" Guid="0f222204-9e7f-4adc-be6f-3ab2bd8c3315" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset X="0" Y="0" />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NExtractData.NextLink>
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable BrowserURL="http://115.239.225.96:8199/#/pages/smartelectricity/electricityanalysis/historicaldata" DesignTimeRectangle="335, -2720, 1505, 3556" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='totalDataSize' tag='TABLE' /&gt;" Guid="247fa294-e27b-4f51-8eac-24cc43921ebc" InformativeScreenshot="4ee4e8509fdfede612970ddd38cfd877.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NExtractData.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NExtractData>
+            <ui:InvokeCode ContinueOnError="{x:Null}" Code="If dtPower Is Nothing Then Throw New Exception(&quot;輸入的 DataTable 是空的！&quot;)&#xD;&#xA;Try&#xD;&#xA;&#x9;dtPower.AsEnumerable().ToList().ForEach(&#xD;&#xA;&#x9;  Sub(row)&#xD;&#xA;        Dim match = System.Text.RegularExpressions.Regex.Match(row(&quot;表号&quot;).ToString, &quot;[A-Z0-9]+&quot;)&#xD;&#xA;        If match.Success Then&#xD;&#xA;          row(&quot;表号&quot;) = match.Value&#xD;&#xA;        End If&#xD;&#xA;      End Sub)&#xD;&#xA;Catch ex As Exception&#xD;&#xA;    Throw New Exception(&quot;資料清洗過程中發生錯誤: &quot; + ex.Message)&#xD;&#xA;End Try&#xD;&#xA;&#xD;&#xA;" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="486.6666666666667,201.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+              <ui:InvokeCode.Arguments>
+                <InOutArgument x:TypeArguments="sd2:DataTable" x:Key="dtPower">
+                  <VisualBasicReference x:TypeArguments="sd2:DataTable" ExpressionText="ExtractDataTable" />
+                </InOutArgument>
+              </ui:InvokeCode.Arguments>
+            </ui:InvokeCode>
+            <ui:AppendWriteCsvFile PathResource="{x:Null}" AddHeaders="True" CsvAction="Write" DataTable="[ExtractDataTable]" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Write CSV" FilePath="D:\power_data.csv" sap:VirtualizedContainerService.HintSize="486.6666666666667,271.3333333333333" sap2010:WorkflowViewState.IdRef="AppendWriteCsvFile_1" ShouldQuote="True" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1102" BrowserType="Chrome" ContentHash="lNhb_cTkIUWpNM1nx2pxAg" IconBase64="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" InformativeScreenshot="5e53f7c763add1ecbe787fbdab824981.png" Reference="0tNGlzjZrESFkuhjo9gEDQ/B0T9I2x-f0yqpI0Da9j6rg" Selector="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" Url="http://115.239.225.96:8199/#/pages/smartelectricity/electricityanalysis/historicaldata" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

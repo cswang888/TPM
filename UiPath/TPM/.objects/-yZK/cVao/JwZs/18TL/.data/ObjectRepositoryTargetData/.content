@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yf1SWMKu-k-tMwMsHnRvdA" Reference="0tNGlzjZrESFkuhjo9gEDQ/18TLbYaRZE2c5DdxV3yjVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="115.239.225.96" CVScreenId="3a9efd4e-aa4c-4972-ae37-d3c8255fdbc1" CvElementArea="632, 447, 346, 60" CvType="InputBox" DesignTimeRectangle="636, 448, 341, 57" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="7ebd992b-9d17-47bd-9dda-81e2a20a9363" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3251e592-7ea8-42e6-b7a6-2a6f02154ffe" CvElementArea="569, 446, 68, 61" CvType="Button" DesignTimeRectangle="588, 458, 33, 37" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='pic4' tag='IMG' /&gt;" Guid="4b215d86-9d0b-41e5-aa40-ef3c2d8e96eb" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="baa16f83d70921720983d8a7615d22cf.png" xmlns="">0tq4maUoLykisuP8CDaRFyQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
