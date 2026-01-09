@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ggkPINERmEecOorRQIKgqQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="115.239.225.96" CVScreenId="b755927b-001e-49f8-ba00-f02d92a0b4d7" CvElementArea="826, 665, 274, 41" CvTextArea="964, 677, 17, 16" CvTextArgument="T" CvType="Button" DesignTimeRectangle="828, 667, 270, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btnlogin' tag='BUTTON' /&gt;" Guid="2b67b602-4e47-459a-9143-8a7940326a0a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b755927b-001e-49f8-ba00-f02d92a0b4d7" CvTextArea="834, 432, 191, 24" CvTextArgument="RippR gMz¥á" CvType="Text" DesignTimeRectangle="828, 424, 330, 75" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='login-box-msg' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='                         欢迎登录 智慧云平台' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='欢迎登录 智慧云平台' /&gt;" Guid="9c48ae5a-0697-4132-a676-9435e44eecdc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b251c2bf935f8c14987b378ddf544448.png" xmlns="">0UgJg7_uZYECslQjrEUt_Wg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

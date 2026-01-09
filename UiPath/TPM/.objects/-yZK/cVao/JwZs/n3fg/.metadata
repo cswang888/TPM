@@ -1,0 +1,14 @@
+﻿{
+  "Name": "登 录",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "n3fgqUY-n0iLczvmG7tYZA",
+  "Reference": "0tNGlzjZrESFkuhjo9gEDQ/n3fgqUY-n0iLczvmG7tYZA",
+  "ParentRef": "0tNGlzjZrESFkuhjo9gEDQ/JwZsnweC5Eyjwh-CJpSWeA",
+  "Created": "2026-01-09T14:24:21.5502859Z",
+  "Updated": "2026-01-09T14:24:21.5502859Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
