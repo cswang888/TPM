@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-hhI6TRCUkKNkZP-Oaj6pQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="115.239.225.96" CVScreenId="992d124c-79ae-482f-822a-825a25346ca9" CvElementArea="1318, 298, 104, 52" CvTextArea="1356, 318, 26, 14" CvTextArgument="213" CvType="Button" DesignTimeRectangle="1320, 301, 100, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='totalDataSize' tag='BUTTON' /&gt;" Guid="ca89e125-fdfa-42db-9e7d-678bc74f78e9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="992d124c-79ae-482f-822a-825a25346ca9" CvElementArea="1043, 300, 49, 50" CvType="Button" DesignTimeRectangle="1045, 301, 45, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='表号' parentid='totalDataSize' tag='DIV' type='' class='input-group-addon ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='表号' /&gt;" Guid="63f7cc0a-215f-48fc-935e-ea99858035b7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b4a5d1f86cd6072ca42fb1c86f46762c.png" xmlns="">0O7Px6DWyvkuFDI8WikYFZQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

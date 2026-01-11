@@ -1,0 +1,14 @@
+﻿{
+  "Name": "结束时间",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "Z9LAAjMoOkCiG3AC5C_mBg",
+  "Reference": "0tNGlzjZrESFkuhjo9gEDQ/Z9LAAjMoOkCiG3AC5C_mBg",
+  "ParentRef": "0tNGlzjZrESFkuhjo9gEDQ/JwZsnweC5Eyjwh-CJpSWeA",
+  "Created": "2026-01-09T14:43:34.6553346Z",
+  "Updated": "2026-01-09T14:43:34.6553346Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

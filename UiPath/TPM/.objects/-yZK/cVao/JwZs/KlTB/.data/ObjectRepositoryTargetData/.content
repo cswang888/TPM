@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Q-4FAy9DxE6n9QSnVm-5Jw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="115.239.225.96" CVScreenId="1c1f7b48-4620-4731-9a56-6f4d3cfe464f" CvElementArea="565, 300, 176, 50" CvType="InputBox" DesignTimeRectangle="566, 301, 173, 48" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='totalDataSize' tag='INPUT' type='' class='ant-calendar-picker-input ant-input ant-input-lg' placeholder='开始时间' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="e1c42562-df06-4f7d-ba82-a62140c0804a" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1c1f7b48-4620-4731-9a56-6f4d3cfe464f" CvElementArea="495, 300, 73, 50" CvTextArea="506, 318, 51, 14" CvTextArgument="FTtAe" CvType="Button" DesignTimeRectangle="497, 301, 69, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='totalDataSize' tag='SPAN' type='' class='input-group-addon' aaname='开始时间' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='开始时间' /&gt;" Guid="b207c8f3-9de9-4936-bf77-6e78b2d246ea" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="83b4998a7ed94f09616da3dbc89d7b1c.png" xmlns="">0iAfDOvMgME2tdB0CXVwZrg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

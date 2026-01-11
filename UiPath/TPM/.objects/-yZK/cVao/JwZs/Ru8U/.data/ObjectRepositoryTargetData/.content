@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GrFqW7kvV0mAtUh17QoDZg" Reference="0tNGlzjZrESFkuhjo9gEDQ/Ru8UFsiDUEuVvqf68wsZLg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="115.239.225.96" DesignTimeRectangle="840, 301, 173, 48" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' parentid='totalDataSize' tag='INPUT' class='ant-calendar-picker-input ant-input ant-input-lg' placeholder='结束时间' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="63b59f0f-c545-4c48-bd43-42fc87652492" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="556d383d-1aa2-46aa-9539-5c5a97da12de" CvElementArea="769, 300, 73, 50" CvTextArea="779, 318, 52, 14" CvTextArgument="SÉ¿8O" CvType="Button" DesignTimeRectangle="771, 301, 69, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='结束时间' class='input-group-addon' parentid='totalDataSize' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='结束时间' /&gt;" Guid="8c020f83-8c3c-414c-9fe6-39009f416777" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="64295109609a7d658801280f5e4a635d.png" xmlns="">0pWN8hrr3MUWiSTZtHHchmQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">InjectJsScript</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

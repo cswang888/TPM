@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SKGJcTXyBkeM66oudhik6w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="115.239.225.96" CVScreenId="5507ceb3-a885-4a26-9b1d-1c42eb9777f8" CvElementArea="737, 568, 47, 35" CvType="Button" DesignTimeRectangle="739, 570, 43, 32" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='确 定' parentid='cdk-overlay-15' tag='A' /&gt;" Guid="0ce2db50-9531-4f70-b7a8-61b21d9eeed3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='智慧云平台' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="680, 567, 48, 38" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='选择时间' parentid='cdk-overlay-15' tag='A' type='' class='ant-calendar-time-picker-btn ng-tns-c25-120 ng-star-inserted' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='选择时间' /&gt;" Guid="3361de9c-9291-4364-a731-984c90a365ff" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="224324a31bc872c07b8a6a6d9340d1f0.png" xmlns="">0z4SoSn27UkqdIgK4lodR_g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

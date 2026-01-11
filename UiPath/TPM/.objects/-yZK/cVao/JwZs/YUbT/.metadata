@@ -1,0 +1,14 @@
+﻿{
+  "Name": "确 定(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "YUbTfI3wq0SSFJcjFLTpXg",
+  "Reference": "0tNGlzjZrESFkuhjo9gEDQ/YUbTfI3wq0SSFJcjFLTpXg",
+  "ParentRef": "0tNGlzjZrESFkuhjo9gEDQ/JwZsnweC5Eyjwh-CJpSWeA",
+  "Created": "2026-01-09T17:21:38.4265791Z",
+  "Updated": "2026-01-09T17:21:38.4265791Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
